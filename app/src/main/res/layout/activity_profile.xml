@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/swstiktext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#14CE34"
+            android:text="SWSTIK"
+            android:textColor="@color/black"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/agritext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/swstiktext"
+            android:layout_centerHorizontal="true"
+            android:text="Agriculture Farming"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_below="@id/agritext"
+            android:layout_marginTop="0dp"
+            android:background="#AEDCD7"
+            android:text="Your Profile"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agritext"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/avtar22"
+            android:layout_marginLeft="100sp"/>
+
+        <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Your Orders"
+          android:background="@drawable/rect_button"
+          android:textColor="@color/black"
+          android:layout_below="@id/agritext"
+          android:layout_marginTop="340sp"
+          android:layout_marginLeft="30sp"
+          android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agritext"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/rect_button"
+            android:text="Trending"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agritext"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="410sp"
+            android:background="@drawable/rect_button"
+            android:text="Your List"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agritext"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/rect_button"
+            android:text="Your Acount"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
